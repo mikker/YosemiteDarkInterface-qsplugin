@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42447D7A193F6C9D0077B4B2 /* BBBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42447D79193F6C9D0077B4B2 /* BBBackgroundView.m */; };
-		42447D7D19407DA00077B4B2 /* BBSearchObjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42447D7C19407DA00077B4B2 /* BBSearchObjectView.m */; };
+		42447D7A193F6C9D0077B4B2 /* BBYosemiteDarkBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42447D79193F6C9D0077B4B2 /* BBYosemiteDarkBackgroundView.m */; };
+		42447D7D19407DA00077B4B2 /* BBYosemiteDarkSearchObjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42447D7C19407DA00077B4B2 /* BBYosemiteDarkSearchObjectView.m */; };
 		42447D821940935E0077B4B2 /* ios7-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 42447D7F1940935E0077B4B2 /* ios7-gear.png */; };
 		42447D831940935E0077B4B2 /* ios7-search-strong.png in Resources */ = {isa = PBXBuildFile; fileRef = 42447D801940935E0077B4B2 /* ios7-search-strong.png */; };
-		42663058193CC1FA00C0DD31 /* BBYosemiteInterface.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42663057193CC1FA00C0DD31 /* BBYosemiteInterface.xib */; };
+		42663058193CC1FA00C0DD31 /* BBYosemiteDarkInterface.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42663057193CC1FA00C0DD31 /* BBYosemiteDarkInterface.xib */; };
 		E470B7E31709F3A0000169F2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E470B7E21709F3A0000169F2 /* Cocoa.framework */; };
 		E470B7E91709F3A0000169F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E470B7E71709F3A0000169F2 /* InfoPlist.strings */; };
-		E470B7F81709F3A0000169F2 /* BBYosemiteInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = E470B7F71709F3A0000169F2 /* BBYosemiteInterface.m */; };
+		E470B7F81709F3A0000169F2 /* BBYosemiteDarkInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = E470B7F71709F3A0000169F2 /* BBYosemiteDarkInterface.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		42447D78193F6C9D0077B4B2 /* BBBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBBackgroundView.h; sourceTree = "<group>"; };
-		42447D79193F6C9D0077B4B2 /* BBBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBBackgroundView.m; sourceTree = "<group>"; };
-		42447D7B19407DA00077B4B2 /* BBSearchObjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSearchObjectView.h; sourceTree = "<group>"; };
-		42447D7C19407DA00077B4B2 /* BBSearchObjectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSearchObjectView.m; sourceTree = "<group>"; };
+		42447D78193F6C9D0077B4B2 /* BBYosemiteDarkBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBYosemiteDarkBackgroundView.h; sourceTree = "<group>"; };
+		42447D79193F6C9D0077B4B2 /* BBYosemiteDarkBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBYosemiteDarkBackgroundView.m; sourceTree = "<group>"; };
+		42447D7B19407DA00077B4B2 /* BBYosemiteDarkSearchObjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBYosemiteDarkSearchObjectView.h; sourceTree = "<group>"; };
+		42447D7C19407DA00077B4B2 /* BBYosemiteDarkSearchObjectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBYosemiteDarkSearchObjectView.m; sourceTree = "<group>"; };
 		42447D7F1940935E0077B4B2 /* ios7-gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7-gear.png"; sourceTree = "<group>"; };
 		42447D801940935E0077B4B2 /* ios7-search-strong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7-search-strong.png"; sourceTree = "<group>"; };
-		42663057193CC1FA00C0DD31 /* BBYosemiteInterface.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBYosemiteInterface.xib; sourceTree = "<group>"; };
-		E470B7DF1709F3A0000169F2 /* Yosemite.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Yosemite.qsplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		42663057193CC1FA00C0DD31 /* BBYosemiteDarkInterface.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBYosemiteDarkInterface.xib; sourceTree = "<group>"; };
+		E470B7DF1709F3A0000169F2 /* YosemiteDark.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YosemiteDark.qsplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		E470B7E21709F3A0000169F2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E470B7E61709F3A0000169F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		E470B7E81709F3A0000169F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -35,8 +35,8 @@
 		E470B7EE1709F3A0000169F2 /* QSPlugIn.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QSPlugIn.xcconfig; sourceTree = "<group>"; };
 		E470B7EF1709F3A0000169F2 /* Quicksilver.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quicksilver.pch; sourceTree = "<group>"; };
 		E470B7F01709F3A0000169F2 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		E470B7F61709F3A0000169F2 /* BBYosemiteInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBYosemiteInterface.h; sourceTree = "<group>"; };
-		E470B7F71709F3A0000169F2 /* BBYosemiteInterface.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBYosemiteInterface.m; sourceTree = "<group>"; };
+		E470B7F61709F3A0000169F2 /* BBYosemiteDarkInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBYosemiteDarkInterface.h; sourceTree = "<group>"; };
+		E470B7F71709F3A0000169F2 /* BBYosemiteDarkInterface.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBYosemiteDarkInterface.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 		E470B7E01709F3A0000169F2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E470B7DF1709F3A0000169F2 /* Yosemite.qsplugin */,
+				E470B7DF1709F3A0000169F2 /* YosemiteDark.qsplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,13 +81,13 @@
 			children = (
 				E470B7EA1709F3A0000169F2 /* Configuration */,
 				E470B7E51709F3A0000169F2 /* Supporting Files */,
-				42447D78193F6C9D0077B4B2 /* BBBackgroundView.h */,
-				42447D79193F6C9D0077B4B2 /* BBBackgroundView.m */,
-				42447D7B19407DA00077B4B2 /* BBSearchObjectView.h */,
-				42447D7C19407DA00077B4B2 /* BBSearchObjectView.m */,
-				E470B7F61709F3A0000169F2 /* BBYosemiteInterface.h */,
-				E470B7F71709F3A0000169F2 /* BBYosemiteInterface.m */,
-				42663057193CC1FA00C0DD31 /* BBYosemiteInterface.xib */,
+				42447D78193F6C9D0077B4B2 /* BBYosemiteDarkBackgroundView.h */,
+				42447D79193F6C9D0077B4B2 /* BBYosemiteDarkBackgroundView.m */,
+				42447D7B19407DA00077B4B2 /* BBYosemiteDarkSearchObjectView.h */,
+				42447D7C19407DA00077B4B2 /* BBYosemiteDarkSearchObjectView.m */,
+				E470B7F61709F3A0000169F2 /* BBYosemiteDarkInterface.h */,
+				E470B7F71709F3A0000169F2 /* BBYosemiteDarkInterface.m */,
+				42663057193CC1FA00C0DD31 /* BBYosemiteDarkInterface.xib */,
 				42447D7F1940935E0077B4B2 /* ios7-gear.png */,
 				42447D801940935E0077B4B2 /* ios7-search-strong.png */,
 			);
@@ -120,9 +120,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E470B7DE1709F3A0000169F2 /* Yosemite */ = {
+		E470B7DE1709F3A0000169F2 /* YosemiteDark */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E470B7FB1709F3A0000169F2 /* Build configuration list for PBXNativeTarget "Yosemite" */;
+			buildConfigurationList = E470B7FB1709F3A0000169F2 /* Build configuration list for PBXNativeTarget "YosemiteDark" */;
 			buildPhases = (
 				E470B7DA1709F3A0000169F2 /* ShellScript */,
 				E470B7DB1709F3A0000169F2 /* Sources */,
@@ -133,9 +133,9 @@
 			);
 			dependencies = (
 			);
-			name = Yosemite;
+			name = YosemiteDark;
 			productName = SquareBezel;
-			productReference = E470B7DF1709F3A0000169F2 /* Yosemite.qsplugin */;
+			productReference = E470B7DF1709F3A0000169F2 /* YosemiteDark.qsplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -147,7 +147,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = BRNBW;
 			};
-			buildConfigurationList = E470B7D91709F3A0000169F2 /* Build configuration list for PBXProject "Yosemite" */;
+			buildConfigurationList = E470B7D91709F3A0000169F2 /* Build configuration list for PBXProject "YosemiteDark" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -159,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E470B7DE1709F3A0000169F2 /* Yosemite */,
+				E470B7DE1709F3A0000169F2 /* YosemiteDark */,
 			);
 		};
 /* End PBXProject section */
@@ -169,7 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42663058193CC1FA00C0DD31 /* BBYosemiteInterface.xib in Resources */,
+				42663058193CC1FA00C0DD31 /* BBYosemiteDarkInterface.xib in Resources */,
 				E470B7E91709F3A0000169F2 /* InfoPlist.strings in Resources */,
 				42447D821940935E0077B4B2 /* ios7-gear.png in Resources */,
 				42447D831940935E0077B4B2 /* ios7-search-strong.png in Resources */,
@@ -199,9 +199,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42447D7A193F6C9D0077B4B2 /* BBBackgroundView.m in Sources */,
-				42447D7D19407DA00077B4B2 /* BBSearchObjectView.m in Sources */,
-				E470B7F81709F3A0000169F2 /* BBYosemiteInterface.m in Sources */,
+				42447D7A193F6C9D0077B4B2 /* BBYosemiteDarkBackgroundView.m in Sources */,
+				42447D7D19407DA00077B4B2 /* BBYosemiteDarkSearchObjectView.m in Sources */,
+				E470B7F81709F3A0000169F2 /* BBYosemiteDarkInterface.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +237,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E470B7EE1709F3A0000169F2 /* QSPlugIn.xcconfig */;
 			buildSettings = {
-				PRODUCT_NAME = Yosemite;
+				PRODUCT_NAME = YosemiteDark;
 			};
 			name = Debug;
 		};
@@ -245,14 +245,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E470B7EE1709F3A0000169F2 /* QSPlugIn.xcconfig */;
 			buildSettings = {
-				PRODUCT_NAME = Yosemite;
+				PRODUCT_NAME = YosemiteDark;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E470B7D91709F3A0000169F2 /* Build configuration list for PBXProject "Yosemite" */ = {
+		E470B7D91709F3A0000169F2 /* Build configuration list for PBXProject "YosemiteDark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E470B7F91709F3A0000169F2 /* Debug */,
@@ -261,7 +261,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E470B7FB1709F3A0000169F2 /* Build configuration list for PBXNativeTarget "Yosemite" */ = {
+		E470B7FB1709F3A0000169F2 /* Build configuration list for PBXNativeTarget "YosemiteDark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E470B7FC1709F3A0000169F2 /* Debug */,

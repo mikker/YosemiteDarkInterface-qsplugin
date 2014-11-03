@@ -1,6 +1,6 @@
-#import "BBSearchObjectView.h"
+#import "BBYosemiteDarkSearchObjectView.h"
 
-@implementation BBSearchObjectView
+@implementation BBYosemiteDarkSearchObjectView
 + (Class)cellClass { return [BBObjectCell class]; }
 @end
 

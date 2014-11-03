@@ -1,14 +1,14 @@
-#import "BBYosemiteInterface.h"
+#import "BBYosemiteDarkInterface.h"
 
-@interface BBYosemiteInterface () {
+@interface BBYosemiteDarkInterface () {
   CGRect initialRect;
 }
 @end
 
-@implementation BBYosemiteInterface
+@implementation BBYosemiteDarkInterface
 
 - (id)init {
-	return [self initWithWindowNibName:@"BBYosemiteInterface"];
+	return [self initWithWindowNibName:@"BBYosemiteDarkInterface"];
 }
 
 - (void)windowDidLoad {
@@ -42,12 +42,12 @@
     [(QSWindow *)[(theControl)->resultController window] setShowOffset:NSMakePoint(NSMaxX([dSelector frame]), 0)];
     
     [theCell setBackgroundColor:[NSColor clearColor]];
-    [theCell setHighlightColor:[NSColor colorWithRed:0 green:0 blue:0 alpha:.1]];
+    [theCell setHighlightColor:[NSColor colorWithRed:1 green:1 blue:1 alpha:.15]];
     
     [theCell setFont:[NSFont fontWithName:@"HelveticaNeue-Light" size:26]];
 
     [theCell setShowDetails:YES];
-    [theCell setTextColor:[NSColor colorWithWhite:0.3 alpha:1]];
+    [theCell setTextColor:[NSColor colorWithWhite:.8 alpha:1]];
     [theCell setState:NSOnState];
     [theCell setCellRadiusFactor:30];
     [theCell setIconSize:QSSize32];
@@ -55,7 +55,7 @@
     [theCell setImagePosition:NSImageRight];
   }
   
-  float imageAlpha = .2;
+  float imageAlpha = .5;
   [self.image1 setAlphaValue:imageAlpha];
   [self.image2 setAlphaValue:imageAlpha];
   [self.image3 setAlphaValue:imageAlpha];

@@ -1,4 +1,4 @@
-@interface BBSearchObjectView : QSSearchObjectView
+@interface BBYosemiteDarkSearchObjectView : QSSearchObjectView
 @end
 
 @interface BBCollectingSearchObjectView : QSCollectingSearchObjectView

@@ -1,4 +1,4 @@
-@interface BBYosemiteInterface : QSResizingInterfaceController {
+@interface BBYosemiteDarkInterface : QSResizingInterfaceController {
 	NSRect standardRect;
 }
 

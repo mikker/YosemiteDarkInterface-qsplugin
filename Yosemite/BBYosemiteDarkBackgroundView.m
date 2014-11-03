@@ -1,6 +1,6 @@
-#import "BBBackgroundView.h"
+#import "BBYosemiteDarkBackgroundView.h"
 
-@implementation BBBackgroundView
+@implementation BBYosemiteDarkBackgroundView
 
 - (void)drawRect:(NSRect)rect {
   rect = [self bounds];
@@ -11,7 +11,7 @@
   [roundRect appendBezierPathWithRoundedRectangle:rect withRadius:MIN(minRadius, 5)];
   [roundRect addClip];
   
-  [[NSColor colorWithRed:1 green:1 blue:1 alpha:.99] set];
+  [[NSColor colorWithRed:.1 green:.1 blue:.1 alpha:.99] set];
   NSRectFill(rect);
 
   [super drawRect:rect];
