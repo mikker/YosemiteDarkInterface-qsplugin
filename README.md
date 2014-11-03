@@ -1,25 +1,14 @@
-### Yosemite's Spotlight sure looks nice doesn't it?
+### Dark version of [this](https://github.com/mikker/YosemiteInterface-qsplugin)
 
-![](https://github.com/mikker/YosemiteInterface-qsplugin/raw/master/screenshot-1.0.2.png)
+![](https://github.com/mikker/YosemiteDarkInterface-qsplugin/raw/master/screenshot-1.0.0.png)
 
-* [v1.0.2](https://github.com/mikker/YosemiteInterface-qsplugin/blob/master/Yosemite-1.0.2.qsplugin.zip?raw=true)
+* [v1.0.0](https://github.com/mikker/YosemiteDarkInterface-qsplugin/blob/master/YosemiteDark-1.0.0.qsplugin.zip?raw=true)
 
 ### Changelog
 
-##### 1.0.2
-
-* Remove text in background when editing (#3)
-* Cell background is light blue when drop target
-* Bring in details text and increase text contrast
-* Make the icons smaller and the text field slimmer (#4 and #6)
-
-##### 1.0.1
-
-Moved results window under interface instead of to the right
-
 ##### 1.0.0
 
-Initial release
+Initial release (Dark version)
 
 ### Thanks
 
