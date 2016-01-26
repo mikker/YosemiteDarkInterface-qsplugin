@@ -44,7 +44,11 @@
     [theCell setBackgroundColor:[NSColor clearColor]];
     [theCell setHighlightColor:[NSColor colorWithRed:1 green:1 blue:1 alpha:.15]];
     
-    [theCell setFont:[NSFont fontWithName:@"HelveticaNeue-Light" size:26]];
+    if (floor(NSAppKitVersionNumber) <= NSAppKitVersionNumber10_10_Max) {
+        [theCell setFont:[NSFont fontWithName:@"HelveticaNeue-Light" size:26]];
+    } else {
+        [theCell setFont:[NSFont systemFontOfSize:26 weight:NSFontWeightLight]];
+    }
 
     [theCell setShowDetails:YES];
     [theCell setTextColor:[NSColor colorWithWhite:.8 alpha:1]];
